@@ -1,4 +1,27 @@
 body{
     background-color: gray;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    gap: 30px
+
+}
+.main{
+    width:350px ;
+    height: 400px;
+    padding: 30px;
+    border: 2px solid red;
+    border-radius: 20px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+
+}.result{
+    width:350px ;
+    height: 400px;
+    padding: 30px;
+    border: 2px solid red;
+    border-radius: 20px;
 }
